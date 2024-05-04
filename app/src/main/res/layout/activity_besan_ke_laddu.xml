@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sweets.BesanKeLaddu">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/sweet1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+        android:text="Besan Ladoo or Besan ke Laddu is a popular Indian sweet made during festivals. These are round sweet balls made with gram flour a.k.a besan, powdered sugar and clarified butter (ghee)."
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv1" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="85dp"
+        android:text=" INGREDIENTS:- \n &#8226; 2 cups gram flour (besan) – 200 grams \n
+&#8226; ½ cup Ghee (clarified butter) – 125 grams, add more ghee, if required \n
+&#8226; 1 cup powdered sugar (heaped) or boora or castor sugar or confectioner's sugar – 175 grams (powder ¾ cup white sugar or raw sugar in a mixer-grinder, small blender) \n
+&#8226; 1 teaspoon cardamom powder or 5 to 6 green cardamoms, powdered in a mortar-pestle \n
+&#8226; 1 to 2 tablespoons golden raisins – chopped \n
+&#8226; 10 to 12 cashews – finely chopped"
+        android:textStyle="italic"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv1" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="300dp"
+        android:text=" INSTRUCTIONS:- \n
+
+Roasting Besan \n
+1. Dry roast the besan in a heavy kadai or pan on low to medium-low heat for about 10 to 12 minutes.\n
+2. Keep on stirring continuously right from the beginning. So that the besan is not burned and cooks evenly.\n\n
+Adding Ghee And Roasting Further\n
+1. After 12 minutes of total roasting time, add the ghee.\n
+2. Mix very well and continue roasting the besan for some more 12 to 15 minutes stirring non-stop.\n
+3. You will see that the mixture will start releasing ghee and will give a nice fragrant nutty aroma.\n
+Some ghee will float on top and and you will see a molten lava kind of consistency where the ghee is floating.\n
+The mixture will also loose sides of the pan and become one. These are the signs that the besan is fully cooked.\n
+Once you see these signs, you can move on to the next step.\n
+4. Remove the pan from the stove-top and place it on your kitchen countertop. Add powdered sugar.\n\n
+Adding Powdered Sugar\n
+1. Begin to mix with all the strength from your hands. You have to mix this part vigorously so that the powdered sugar melts in the roasted besan and ghee mixture and no lumps are formed.\n
+2. Add the powdered cardamom, raisins and cashews. Mix again.\n
+3. Once you have mixed the ladoo mixture well then let it become lukewarm or cool at room temperature.\n\n
+Making Besan Ladoo\n
+1. When cooled, make small or medium-sized besan ladoo and store them in an airtight steel container.\n
+If you are not able to shape in balls then freeze the mixture for 5 minutes or refrigerate for 20 minutes.\n
+Depending on the quality and consistency of ghee as well as the room temperature you may be able to easily shape these or not.\n
+2. Serve besan ladoo garnished with some nuts.\n\n
+Storage\n
+1. Besan laddu keeps well at room temperature for a month. Keep in a clean covered jar or container in a cool dry place. You can use a steel jar.\n
+2. You can refrigerate these. But on refrigerating the ghee in the laddu solidifies making them dense or hard. So before serving, let them thaw completely.\n"
+        android:textStyle="italic"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv1" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

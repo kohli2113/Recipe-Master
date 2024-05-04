@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <item
+            android:id="@+id/navigation_snacks"
+            android:icon="@drawable/image1"
+            android:title="Snacks" />
+        <item
+            android:id="@+id/navigation_main_course"
+            android:icon="@drawable/imagw2"
+            android:title="Main Course" />
+        <item
+            android:id="@+id/navigation_sweets"
+            android:icon="@drawable/image3"
+            android:title="Sweets" />
+
+</menu>
